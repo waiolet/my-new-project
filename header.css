@@ -1,8 +1,6 @@
 .header-container {
     margin: 0 auto;
-    position: relative;
-    
-      
+    position: relative;    
 }
 
 .header-elements {
@@ -54,8 +52,6 @@ a {
     list-style: none;
     gap: 10px;
     justify-content: center;
-    
-
 }
 
 .header-icon-item {
@@ -91,6 +87,25 @@ a {
     background-size: cover;
 }
 
+ .menu-close-btn {
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     padding: 0;
+     display: flex;
+     margin-left: auto;  
+ }
+
+ .header-nav-list-mob {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 186px;
+    padding: 0;
+ }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
    .header-logo {
     font-family: Gilroy;
@@ -120,6 +135,11 @@ a {
     height: 812px;   
 
    }
+
+   .menu-close-btn {
+       margin-top: 20px;
+       margin-right: 20px;
+   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -140,7 +160,11 @@ a {
     .mob-menu {
         width: 330px;
         height: 1024px;
-        
-            
+                
+    }
+    
+    .menu-close-btn {
+        margin-top: 26px;
+        margin-right: 32px;
     }
 }
