@@ -167,10 +167,10 @@ ul {
  }
 
 
- /* .is-open {
+  .is-open {
     opacity: 1;
     visibility: visible; 
-} */
+} 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
    .header-logo {
