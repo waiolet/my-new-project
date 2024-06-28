@@ -82,6 +82,7 @@ a {
 .header-link-icon {
     width: 20px;
     height: 20px;
+    display: block;
 }
 
 
