@@ -30,7 +30,7 @@ ul {
     letter-spacing: -0.02em;
     text-align: left;
     color: #0C0C0C;
-    margin-right: 203px;
+    margin-right: auto;
 }
 
 .header-nav-list {
@@ -182,6 +182,10 @@ ul {
     text-align: left;
    } 
 
+   .header-nav {
+    padding: 20px;
+   }
+
    .header-nav-list,
    .header-icons-list {
     display: none;
@@ -189,12 +193,12 @@ ul {
 
    .header-menu-btn {
     display: flex;
-   }
-
-   .menu-open-btn {
+    padding: 0;
     width: 34px;
     height: 34px;
    }
+
+   
 
    .mob-menu {
     width: 200px;
@@ -238,12 +242,10 @@ ul {
         display: flex;
         width: 40px;
         height: 40px;
+        padding: 0;
     }
 
-    .menu-open-btn {
-        width: 40px;
-        height: 40px;
-    }
+    
 
     .mob-menu {
         width: 330px;
