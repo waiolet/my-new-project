@@ -1,9 +1,8 @@
+
 .header-container {
     margin: 0 auto;
     position: relative;    
 }
-
-
 
 
 .header-nav {
@@ -41,6 +40,7 @@ a {
     line-height: 18px;
     text-align: center;
     color: #0C0C0C;
+    padding-left: 0;
 }
 
 .active-page {
@@ -61,7 +61,7 @@ a {
 
 .header-icons-list {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     margin-left: auto;
     list-style: none;
     gap: 10px;
@@ -69,13 +69,19 @@ a {
 }
 
 .header-icon-item {
-    padding: 8px;
+    padding: 7.2px;
     border: 1px solid #0C0C0C1A;
     border-radius: 10px;
 }
 
 .header-icon {
     fill: #0C0C0C;
+    opacity: 0.8;
+}
+
+.header-link-icon {
+    width: 20px;
+    height: 20px;
 }
 
 
