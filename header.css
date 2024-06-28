@@ -124,7 +124,8 @@ ul {
      cursor: pointer;
      padding: 0;
      display: flex;
-     margin-left: auto;  
+     margin-left: auto; 
+     visibility: inherit; 
  }
 
  .header-nav-list-mob {
@@ -261,5 +262,10 @@ ul {
     .header-icons-list-mob {
         margin-bottom: 50px;
         margin-top: 350px;
+    }
+
+    .header-nav-list-mob {
+        margin-top: 244px;
+        gap: 32px;
     }
 }
