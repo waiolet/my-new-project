@@ -7,7 +7,7 @@
 
 .header-nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding: 26px 64.5px;
 }
 
@@ -24,7 +24,6 @@ ul {
 }
 
 .header-logo {
-    font-family: Gilroy;
     font-size: 20px;
     font-weight: 500;
     line-height: 24.26px;
@@ -216,6 +215,20 @@ ul {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .header-nav {
+        display: flex;
+        align-items: center;
+        padding: 26px 32px;
+    }
+
+    .header-logo {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.26px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+    
     .header-nav-list,
     .header-icons-list {
         display: none;
@@ -223,6 +236,8 @@ ul {
 
     .header-menu-btn {
         display: flex;
+        width: 40px;
+        height: 40px;
     }
 
     .menu-open-btn {
