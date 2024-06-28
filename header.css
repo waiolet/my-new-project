@@ -1,13 +1,17 @@
 .header-container {
     margin: 0 auto;
-    
-    
+      
 }
+
+.header-elements {
+    display: flex;
+    padding: 26px 64.5px;
+}
+
 
 .header-nav {
     display: flex;
     align-items: baseline;
-    padding: 26px 64.5px;
 }
 
 a {
@@ -66,6 +70,7 @@ a {
     background-color: transparent;
     border: none;
     display: none;
+    margin-left: auto;
 }
 
 .menu-open-btn {
