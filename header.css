@@ -17,6 +17,7 @@
 
 a {
    text-decoration: none;
+   color: inherit
 }
 
 .header-logo {
@@ -104,6 +105,35 @@ a {
     gap: 24px;
     margin-top: 186px;
     padding: 0;
+    color: #FBFBFB;
+    
+ }
+
+ .header-nav-item-mob {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+ }
+
+ .header-icons-list-mob {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+ }
+
+ .header-icon-item-mob {
+     padding: 8px;
+     border: 1px solid #FBFBFB1A;
+     border-radius: 10px;
+ }
+
+ .header-icon-mob {
+     fill: #FBFBFB;
  }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -139,6 +169,11 @@ a {
    .menu-close-btn {
        margin-top: 20px;
        margin-right: 20px;
+   }
+
+   .header-icons-list-mob {
+    margin-bottom: 40px;
+    margin-top: auto;
    }
 }
 
