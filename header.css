@@ -85,7 +85,27 @@ ul {
 .header-icon {
     fill: #0C0C0C;
     opacity: 0.8;
+    transition: fill 0.3s linear
 }
+
+.header-icon:hover,
+.header-icon:focus {
+    fill: #3350E9
+}
+
+
+.header-icon-container:hover .header-icon-item {
+    padding: 7.2px;
+    border: 1px solid #3350E9;
+    border-radius: 10px;
+}
+
+.header-icon-container:focus .header-icon-item {
+    padding: 7.2px;
+    border: 1px solid #3350E9;
+    border-radius: 10px;
+}
+
 
 .header-link-icon {
     width: 20px;
@@ -167,10 +187,10 @@ ul {
 
 .header-icon-mob {
     fill: #F3F3F3;
-    transition: fill 0.5s linear;
+    transition: fill 0.3s linear;
 }
 
-.header-icon-mon:hover 
+.header-icon-mob:hover, 
 .header-icon-mob:focus {
     fill: #FBFBFB;
 }
