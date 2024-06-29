@@ -210,6 +210,7 @@ ul {
         margin-right: 20px;
         width: 34px;
         height: 34px;
+        padding: 0;
     }
 
     .header-icons-list-mob {
@@ -220,6 +221,12 @@ ul {
     .header-icon-mob {
         width: 18px;
         height: 18px;
+    }
+
+    .header-link-icon {
+        width: 18px;
+        height: 18px;
+        display: block;
     }
 
 }
