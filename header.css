@@ -166,6 +166,12 @@ ul {
 }
 
 .header-icon-mob {
+    fill: #F3F3F3;
+    transition: fill 0.5s linear;
+}
+
+.header-icon-mon:hover 
+.header-icon-mob:focus {
     fill: #FBFBFB;
 }
 
