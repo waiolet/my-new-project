@@ -1,7 +1,7 @@
-
 .header-container {
     margin: 0 auto;
-    position: relative;    
+    position: relative;
+    border-bottom: 1px solid #0C0C0C1A;
 }
 
 
@@ -12,8 +12,8 @@
 }
 
 a {
-   text-decoration: none;
-   color: inherit
+    text-decoration: none;
+    color: inherit
 }
 
 ul {
@@ -24,6 +24,7 @@ ul {
 }
 
 .header-logo {
+    font-family: Gilroy;
     font-size: 20px;
     font-weight: 500;
     line-height: 24.26px;
@@ -52,6 +53,7 @@ ul {
 .active-page {
     position: relative;
 }
+
 .active-page::after {
     content: "";
     display: block;
@@ -104,7 +106,7 @@ ul {
     height: 40px;
 }
 
-.mob-menu {
+.menue {
     position: fixed;
     top: 0;
     right: 0;
@@ -115,20 +117,20 @@ ul {
     opacity: 0;
     /* visibility: hidden;
     pointer-events: 0; */
-    
+
 }
 
- .menu-close-btn {
-     background-color: transparent;
-     border: none;
-     cursor: pointer;
-     padding: 0;
-     display: flex;
-     margin-left: auto; 
-     visibility: inherit; 
- }
+.menu-close-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    visibility: inherit;
+}
 
- .header-nav-list-mob {
+.header-nav-list-mob {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -138,111 +140,100 @@ ul {
     margin-bottom: 0;
     padding: 0;
     color: #FBFBFB;
-    
- }
 
- .header-nav-item-mob {
+}
+
+.header-nav-item-mob {
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     text-align: center;
- }
+}
 
- .header-icons-list-mob {
+.header-icons-list-mob {
     list-style: none;
     padding: 0;
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
- }
-
- .header-icon-item-mob {
-     padding: 8px;
-     border: 1px solid #FBFBFB1A;
-     border-radius: 10px;
- }
-
- .header-icon-mob {
-     fill: #FBFBFB;
- }
-
-
-  .is-open {
-    opacity: 1;
-    visibility: visible; 
-} 
-
-
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-   .header-logo {
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.41px;
-    letter-spacing: -0.02em;
-    text-align: left;
-   } 
-
-   .header-nav {
-    padding: 20px;
-   }
-
-   .header-nav-list,
-   .header-icons-list {
-    display: none;
-   }
-
-   .header-menu-btn {
-    display: flex;
-    padding: 0;
-    width: 34px;
-    height: 34px;
-   }
-
-   
-
-   .mob-menu {
-    width: 200px;
-    height: 812px;   
-
-   }
-
-   .menu-close-btn {
-       margin-top: 20px;
-       margin-right: 20px;
-       width: 34px;
-       height: 34px;
-   }
-
-   .header-icons-list-mob {
-    margin-bottom: 40px;
-    margin-top: 260px;
-   }
-
-   .header-icon-mob {
-    width: 18px;
-    height: 18px;
-   }
-        
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+.header-icon-item-mob {
+    padding: 8px;
+    border: 1px solid #FBFBFB1A;
+    border-radius: 10px;
+}
+
+.header-icon-mob {
+    fill: #FBFBFB;
+}
+
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    .header-logo {
+        font-size: 16px;
+        line-height: 19.41px; 
+    }
+
     .header-nav {
+        padding: 20px;
+    }
+
+    .header-nav-list,
+    .header-icons-list {
+        display: none;
+    }
+
+    .header-menu-btn {
         display: flex;
-        align-items: center;
+        padding: 0;
+        width: 34px;
+        height: 34px;
+    }
+
+    .menue {
+        width: 200px;
+        height: 812px;
+
+    }
+
+    .menu-close-btn {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .header-icons-list-mob {
+        margin-bottom: 40px;
+        margin-top: 260px;
+    }
+
+    .header-icon-mob {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .header-nav {
         padding: 26px 32px;
     }
 
     .header-logo {
         font-size: 20px;
-        font-weight: 500;
         line-height: 24.26px;
-        letter-spacing: -0.02em;
-        text-align: left;
     }
-    
+
     .header-nav-list,
     .header-icons-list {
         display: none;
@@ -255,14 +246,14 @@ ul {
         padding: 0;
     }
 
-    
 
-    .mob-menu {
+
+    .menue {
         width: 330px;
         height: 1024px;
-                
+
     }
-    
+
     .menu-close-btn {
         margin-top: 26px;
         margin-right: 32px;
@@ -276,5 +267,29 @@ ul {
     .header-nav-list-mob {
         margin-top: 244px;
         gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header-nav {
+        padding: 26px 64.5px;
+    }
+
+    .header-logo {
+        font-size: 20px;
+        line-height: 24.26px;
+    }
+
+    .header-nav-list,
+    .header-icons-list {
+        display: flex;
+    }
+
+    .header-menu-btn {
+        display: none;
+    }
+
+    .menue {
+        display: none;
     }
 }
